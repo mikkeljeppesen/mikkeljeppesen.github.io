@@ -1,0 +1,46 @@
+#home {
+    height: 100vh;
+    background-image: url(img/nature.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+        margin: auto;
+        text-align: center;
+    }
+
+    i.fa {
+        color: $light;
+        text-align: center;
+        font-size: 5rem;
+        opacity: 0.3;
+        animation: bounce 2s infinite;
+        position: absolute;
+        bottom: 0;
+        width: 100vw;
+    }
+
+    @keyframes bounce {
+
+        0%,
+        20%,
+        50%,
+        80%,
+        100% {
+            transform: translateY(0);
+        }
+
+        40% {
+            transform: translateY(-30px);
+        }
+
+        60% {
+            transform: translateY(-15px);
+        }
+    }
+}

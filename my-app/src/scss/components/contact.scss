@@ -1,0 +1,14 @@
+#contact {
+    background-color: $dark-half;
+
+    h2 {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .contactWrapper {
+        display: flex;
+        justify-content: space-around;
+
+    }
+}
