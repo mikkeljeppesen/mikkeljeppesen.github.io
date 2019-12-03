@@ -8,131 +8,135 @@
   <link href="https://fonts.googleapis.com/css?family=Heebo:100,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="loading-bar.min.css" />
   <link rel="stylesheet" href="app.css" />
+  <link rel="stylesheet" href="load.css">
   <title>Ingegaard</title>
 </head>
 
 <body>
-    <div class="progress">
-      <p class="loader"></p>
-      </div>
-      <div class="siteWrapper">
-  <nav>
-    <div class="logo">
-      <img src="" alt="Logo" />
-    </div>
-    <div class="burgerMenu">
-      <div class="burger"></div>
-    </div>
-  </nav>
-  <div class="navSlide">
-    <ul>
-      <li><a class="navTag" href="#portfolio">Hjem</a></li>
-      <li><a class="navTag" href="#about">Om mig</a></li>
-      <li><a class="navTag" href="#portfolio">Portfolie</a></li>
-      <li><a class="navTag" href="#contact">Kontakt</a></li>
-    </ul>
+  <div class="progress">
+    <p class="loader"></p>
   </div>
+  <div class="siteWrapper">
+    <nav>
+      <div class="logo">
+        <img src="" alt="Logo" />
+      </div>
+      <div class="burgerMenu">
+        <div class="burger"></div>
+      </div>
+    </nav>
+    <div class="navSlide">
+      <ul>
+        <li><a class="navTag" href="#portfolio">Hjem</a></li>
+        <li><a class="navTag" href="#about">Om mig</a></li>
+        <li><a class="navTag" href="#portfolio">Portfolie</a></li>
+        <li><a class="navTag" href="#contact">Kontakt</a></li>
+      </ul>
+    </div>
 
-  <div id="home">
-    <h1>Mikkel Jeppesen</h1>
-    <i class="fa fa-angle-down animated bounce infinite" aria-hidden="true"></i>
+    <div id="home">
+      <h1>Mikkel Ingegaard</h1>
+      <i class="fa fa-angle-down animated bounce infinite" aria-hidden="true"></i>
 
+    </div>
+
+    <section id="about">
+      <div class="wrapper">
+        <h2>Om mig</h2>
+        <div class="wrapperHalf">
+          <p class="aboutText">The waves were crashing on the shore; it was a lovely sight.
+            She works two jobs to make ends meet; at least, that was her reason for not having time to join us.
+            I am counting my calories, yet I really want dessert.
+            I want to buy a onesie… but know it won’t suit me.
+            Hurry!
+            Let me help you with your baggage.</p>
+          <div class="skills">
+            <div class="skillcontainer">
+              <h3>Programmering</h3>
+              <div class="skillItem">
+                <i class="fa fa-code" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="skillcontainer">
+              <h3>Animation</h3>
+              <div class="skillItem">
+                <i class="fa fa-magic" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="skillcontainer">
+              <h3>Design</h3>
+              <div class="skillItem">
+                <i class="fa fa-paint-brush" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="skillcontainer">
+              <h3>Video og billede</h3>
+              <div class="skillItem">
+                <i class="fa fa-camera" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Swiper -->
+    <div id="portfolio" class="swiper-container lax">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide first">
+          <div class="swiper-content">
+            <h2>Animations projekt</h2>
+            <a href="#">Læs mere</a>
+          </div>
+        </div>
+        <div class="swiper-slide second ">
+          <div class="swiper-content">
+            <h2>Pære projekt</h2>
+            <a href="#">Læs mere</a>
+          </div>
+        </div>
+        <div class="swiper-slide third">
+          <div class="swiper-content">
+            <h2>Blad projekt</h2>
+            <a href="#">Læs mere</a>
+          </div>
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+
+
+    <section id="contact">
+      <div class="wrapper">
+        <h2>Kontakt</h2>
+        <div class="contactWrapper">
+          <div class="info">
+            <div class="phone">
+              <h3>Mobilnummer</h3>
+              <p>+45 xx xx xx xx</p>
+            </div>
+            <div class="mail">
+              <h3>Email</h3>
+              <p>xxx@gmail.com</p>
+            </div>
+          </div>
+          <div class="social">
+            <div class="media">
+              <h3>Follow me</h3>
+              <p>@xxx</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
-
-  <section id="about">
-    <div class="wrapper">
-      <h2>Om mig</h2>
-      <p id="typeit">The waves were crashing on the shore; it was a lovely sight.
-        She works two jobs to make ends meet; at least, that was her reason for not having time to join us.
-        I am counting my calories, yet I really want dessert.
-        I want to buy a onesie… but know it won’t suit me.
-        Hurry!
-        Let me help you with your baggage.</p>
-      <div class="skills">
-        <div class="skillcontainer">
-          <h3>Programmering</h3>
-          <div class="skillItem">
-            <i class="fa fa-code" aria-hidden="true"></i>
-          </div>
-        </div>
-        <div class="skillcontainer">
-          <h3>Animation</h3>
-          <div class="skillItem">
-            <i class="fa fa-magic" aria-hidden="true"></i>
-          </div>
-        </div>
-        <div class="skillcontainer">
-          <h3>Design</h3>
-          <div class="skillItem">
-            <i class="fa fa-paint-brush" aria-hidden="true"></i>
-          </div>
-        </div>
-        <div class="skillcontainer">
-          <h3>Video og billede</h3>
-          <div class="skillItem">
-            <i class="fa fa-camera" aria-hidden="true"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Swiper -->
-  <div id="portfolio" class="swiper-container lax">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide first">
-        <div class="swiper-content">
-          <h2>Brød projekt</h2>
-          <a href="#">Læs mere</a>
-        </div>
-      </div>
-      <div class="swiper-slide second ">
-        <div class="swiper-content">
-          <h2>Pære projekt</h2>
-          <a href="#">Læs mere</a>
-        </div>
-      </div>
-      <div class="swiper-slide third">
-        <div class="swiper-content">
-          <h2>Blad projekt</h2>
-          <a href="#">Læs mere</a>
-        </div>
-      </div>
-    </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
-  </div>
-
-
-  <section id="contact">
-    <div class="wrapper">
-      <h2>Kontakt</h2>
-      <div class="contactWrapper">
-        <div class="info">
-          <div class="phone">
-            <h3>Mobilnummer</h3>
-            <p>+45 xx xx xx xx</p>
-          </div>
-          <div class="mail">
-            <h3>Email</h3>
-            <p>xxx@gmail.com</p>
-          </div>
-        </div>
-        <div class="social">
-          <div class="media">
-            <h3>Follow me</h3>
-            <p>@xxx</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
 
   <script src="https://code.createjs.com/1.0.0/preloadjs.min.js"></script>
   <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
+  <script type="text/javascript" src="loading-bar.min.js"></script>
   <script src="app.js"></script>
 </body>
 
