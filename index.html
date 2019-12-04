@@ -8,7 +8,34 @@
   <link href="https://fonts.googleapis.com/css?family=Heebo:100,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" type="text/css" href="loading-bar.min.css" />
+
+  <link rel="icon" href="img/fav/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/fav/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/fav/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/fav/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/fav/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/fav/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/fav/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/fav/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/fav/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/fav/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/fav/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/fav/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/fav/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/fav/favicon-16x16.png">
+  <link rel="manifest" href="img/fav/manifest.json">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="I">
+  <meta name="apple-mobile-web-app-title" content="I">
+  <meta name="theme-color" content="#222833">
+  <meta name="msapplication-navbutton-color" content="#222833">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="msapplication-starturl" content="https://mikkeljeppesen.github.io/">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="msapplication-TileColor" content="#222833">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#222833">
   <link rel="stylesheet" href="app.css" />
   <link rel="stylesheet" href="load.css">
   <title>Ingegaard</title>
@@ -16,12 +43,18 @@
 
 <body>
   <div class="progress">
-    <p class="loader"></p>
+    <div class="dl loader">
+      <div class="dl__container">
+        <div class="dl__corner--top"></div>
+        <div class="dl__corner--bottom"></div>
+      </div>
+      <div class="dl__square"></div>
+    </div>
   </div>
   <div class="siteWrapper">
     <nav>
       <div class="logo">
-        <img src="" alt="Logo" />
+        <img src="img/logo.png" alt="Logo" />
       </div>
       <div class="burgerMenu">
         <div class="burger"></div>
@@ -87,19 +120,19 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide first">
           <div class="swiper-content">
-            <h2>Animations projekt</h2>
+            <h2>Projekt xxx</h2>
             <a href="#">Læs mere</a>
           </div>
         </div>
         <div class="swiper-slide second ">
           <div class="swiper-content">
-            <h2>Pære projekt</h2>
+            <h2>Projekt xxx</h2>
             <a href="#">Læs mere</a>
           </div>
         </div>
         <div class="swiper-slide third">
           <div class="swiper-content">
-            <h2>Blad projekt</h2>
+            <h2>Projekt xxx</h2>
             <a href="#">Læs mere</a>
           </div>
         </div>
@@ -136,7 +169,7 @@
 
   <script src="https://code.createjs.com/1.0.0/preloadjs.min.js"></script>
   <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-  <script type="text/javascript" src="loading-bar.min.js"></script>
+
   <script src="app.js"></script>
 </body>
 
